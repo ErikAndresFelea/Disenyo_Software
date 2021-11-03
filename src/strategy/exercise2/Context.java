@@ -1,4 +1,4 @@
-package strategy.Ejer2;
+package strategy.exercise2;
 
 class Context {
     private ClassifierStrategy classifierStrategy;

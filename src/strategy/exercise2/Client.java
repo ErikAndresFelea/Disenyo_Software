@@ -1,4 +1,8 @@
-package strategy.Ejer2;
+package strategy.exercise2;
+
+import strategy.exercise2.Classifiers.KNN;
+import strategy.exercise2.Classifiers.Kmeans;
+import strategy.exercise2.Classifiers.SOM;
 
 public class Client {
     public static void main(String[] args) {

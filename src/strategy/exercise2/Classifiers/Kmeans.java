@@ -1,4 +1,6 @@
-package strategy.Ejer2;
+package strategy.exercise2.Classifiers;
+
+import strategy.exercise2.ClassifierStrategy;
 
 public class Kmeans implements ClassifierStrategy {
     @Override
