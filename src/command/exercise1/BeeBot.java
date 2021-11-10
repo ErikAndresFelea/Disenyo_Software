@@ -1,8 +1,16 @@
 package command.exercise1;
 
+import java.util.LinkedList;
+
 public class BeeBot {
 
-    public void mover(String movimiento){
-        System.out.println(movimiento);
+    private LinkedList<String> fifo = new LinkedList<>();
+
+    public void addMove(String movimiento){
+        fifo.add(movimiento);
+    }
+
+    public void execute() {
+        for (String s : fifo) System.out.println(s);
     }
 }

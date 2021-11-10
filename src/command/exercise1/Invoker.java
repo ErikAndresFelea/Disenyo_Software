@@ -1,14 +1,15 @@
 package command.exercise1;
+import command.exercise1.commands.Command;
 
-public class Invoker {
+class Invoker {
 
     private Command command;
 
-    public void setComand(Command comand) {
+    void setComand(Command comand) {
         this.command = comand;
     }
 
-    public void executeCommand(){
+    void execute() {
         command.execute();
     }
 }

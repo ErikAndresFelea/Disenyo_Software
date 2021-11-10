@@ -9,15 +9,18 @@ public class Cliente {
 
         Invoker invoker = new Invoker();
         invoker.setComand(new Forward(beeBot));
-        invoker.executeCommand();
+        invoker.execute();
 
-        invoker.setComand(new Back(beeBot));
-        invoker.executeCommand();
+        invoker.setComand(new Backward(beeBot));
+        invoker.execute();
 
         invoker.setComand(new Right(beeBot));
-        invoker.executeCommand();
+        invoker.execute();
 
         invoker.setComand(new Left(beeBot));
-        invoker.executeCommand();
+        invoker.execute();
+
+        invoker.setComand(new Go(beeBot));
+        invoker.execute();
     }
 }

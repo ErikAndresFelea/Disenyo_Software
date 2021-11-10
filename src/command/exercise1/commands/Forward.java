@@ -1,9 +1,7 @@
 package command.exercise1.commands;
 import command.exercise1.BeeBot;
-import command.exercise1.Command;
 
 public class Forward implements Command {
-
     private BeeBot beeBot;
     private String movimiento;
 
@@ -14,6 +12,6 @@ public class Forward implements Command {
 
     @Override
     public void execute() {
-        beeBot.mover(movimiento);
+        beeBot.addMove(movimiento);
     }
 }
