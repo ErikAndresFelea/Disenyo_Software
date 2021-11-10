@@ -1,6 +1,6 @@
-package command.exercise2;
+package command;
 
-import command.exercise2.commands.*;
+import command.commands.*;
 
 public class Cliente {
     public static void main(String[] args) {
@@ -18,6 +18,23 @@ public class Cliente {
         invoker.execute();
 
         invoker.setComand(new Right(beeBot));
+        invoker.execute();
+
+        invoker.setComand(new Left(beeBot));
+        invoker.execute();
+
+        invoker.setComand(new Go(beeBot));
+        invoker.execute();
+
+        System.out.println("\n");
+
+        invoker.setComand(new Backward(beeBot));
+        invoker.execute();
+
+        invoker.setComand(new Right(beeBot));
+        invoker.execute();
+
+        invoker.setComand(new Delete(beeBot));
         invoker.execute();
 
         invoker.setComand(new Left(beeBot));

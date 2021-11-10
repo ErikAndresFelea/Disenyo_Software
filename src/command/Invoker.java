@@ -1,6 +1,6 @@
-package command.exercise2;
+package command;
 
-import command.exercise2.commands.Command;
+import command.commands.Command;
 
 class Invoker {
 

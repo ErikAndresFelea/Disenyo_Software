@@ -1,5 +1,6 @@
-package command.exercise1.commands;
-import command.exercise1.BeeBot;
+package command.commands;
+
+import command.BeeBot;
 
 public class Left implements Command {
     private BeeBot beeBot;

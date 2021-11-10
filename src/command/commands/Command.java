@@ -1,4 +1,4 @@
-package command.exercise2.commands;
+package command.commands;
 
 public interface Command {
     void execute();
